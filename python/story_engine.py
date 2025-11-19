@@ -7,11 +7,6 @@ Need to make the block diagram
 
 Need to do something about my API keys in .env.local
 
-Need to fix how the scenes aren't chronological in dreamweaver
-
-When I'm satisfied with the prompting in both story_engine.py and generate-scenes, write the README explaining everything
-Ask them to use DreamWeaver, and blow them tf away.
-
 YouTube demo Dreamweaver MVP
 """
 

@@ -344,9 +344,15 @@ export default function Home() {
         <h2 style={{ margin: 0, marginBottom: "1rem" }}>Story Settings</h2>
 
         <form onSubmit={handleSubmit}>
-          <div
-            style={{ display: "flex", gap: "1.5rem", marginBottom: "1rem" }}
-          >
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            gap: "1.5rem",
+            marginBottom: "1rem",
+          }}
+        >
+
             {/* AGE */}
             <div style={{ flex: 1, minWidth: 220 }}>
               <label>Child age</label>
@@ -585,7 +591,7 @@ export default function Home() {
         </section>
       )}
 
-      {/* DEBUG FULL STORY */}
+      {/* DEBUG FULL STORY
       {story && (
         <section style={{ maxWidth: 720, margin: "0 auto" }}>
           <h3>Full Story (debug)</h3>
@@ -600,7 +606,7 @@ export default function Home() {
             {story}
           </pre>
         </section>
-      )}
+      )} */}
     </main>
   );
 }
