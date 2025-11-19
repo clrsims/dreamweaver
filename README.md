@@ -15,6 +15,8 @@ In addition to meeting the requirements, I chose to extend the Python script int
 
 A safe, controllable web application that generates and reads aloud personalized bedtime stories for children (ages 5–10), with strong guardrails around age-appropriateness and emotional tone.
 
+Live demo: https://dreamweaver-red.vercel.app/
+
 ## Table of Contents
 
 - [Overview](#overview)
